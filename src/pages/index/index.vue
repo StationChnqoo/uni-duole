@@ -4,7 +4,7 @@
 		<view class="text-area" @click="onClick()">
 			<text class="title">{{ title }}... {{
 				counterStore.count
-			}}... {{duoleStore.isHawk}}</text>
+			}}... {{duoleStore.isHawk}}...</text>
 		</view>
 	</view>
 </template>
