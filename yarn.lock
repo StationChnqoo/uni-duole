@@ -6528,6 +6528,7 @@ __metadata:
     pinia: 2.3.1
     pinia-plugin-persistedstate: ^4.4.1
     typescript: ~5.6.3
+    vant-weapp: ^0.5.29
     vite: ^5.4.10
     vue: ^3.4.21
     vue-i18n: ^9.1.9
@@ -6695,6 +6696,13 @@ __metadata:
   version: 1.0.1
   resolution: "utils-merge@npm:1.0.1"
   checksum: c81095493225ecfc28add49c106ca4f09cdf56bc66731aa8dabc2edbbccb1e1bfe2de6a115e5c6a380d3ea166d1636410b62ef216bb07b3feb1cfde1d95d5080
+  languageName: node
+  linkType: hard
+
+"vant-weapp@npm:^0.5.29":
+  version: 0.5.29
+  resolution: "vant-weapp@npm:0.5.29"
+  checksum: 8ed4508ebb0bbbd921e2bfdea44871587bf92ae7b6012c336996fbd06412e9b92b27b5f33be53c689335413fc6ec0abc63ddb308da05a6b377463bcc09cc8ae9
   languageName: node
   linkType: hard
 

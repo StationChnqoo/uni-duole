@@ -22,6 +22,15 @@ export const useDuoleStore = defineStore(
 	() => {
 		const defaultGame = ref("gj");
 		const isHawk = ref(false);
-		return { defaultGame, isHawk };
+		const autoResume = ref(false);
+		return { defaultGame, isHawk, autoResume };
 	},
+	{
+		persist: {
+			storage: {
+				getItem: (key : string) => uni.getStorageSync(key),
+				setItem: (key : string, value : string) => uni.setStorageSync(key, value)
+			},
+		},
+	}
 );

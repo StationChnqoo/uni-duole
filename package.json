@@ -52,6 +52,7 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-4030620241128001",
     "pinia": "2.3.1",
     "pinia-plugin-persistedstate": "^4.4.1",
+    "vant-weapp": "^0.5.29",
     "vue": "^3.4.21",
     "vue-i18n": "^9.1.9"
   },
