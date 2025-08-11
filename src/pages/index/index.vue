@@ -51,7 +51,7 @@
 	</view>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -59,65 +59,66 @@
 		background-color: #f0f0f0;
 		flex: 1;
 		height: 100vh;
-	}
-	
-	.start-button {
-		width: 100%;
-		background-color: #05be22;
-		color: #fff;
-	}
 
-	.title {
-		font-size: 32rpx;
-		color: #333;
-		font-weight: 500;
-	}
+		.card {
+			border-radius: 24rpx;
+			padding: 16rpx 24rpx;
+			background-color: white;
+			flex-direction: column;
+			display: flex;
 
-	.card {
-		border-radius: 24rpx;
-		padding: 16rpx 24rpx;
-		background-color: white;
-		flex-direction: column;
-		display: flex;
-	}
+			.title {
+				font-size: 32rpx;
+				color: #333;
+				font-weight: 500;
+			}
 
-	.game {
-		flex: 1;
-		border-radius: 10rpx;
-		padding: 12rpx 24rpx;
-	}
+			.setting-line {
+				flex-direction: row;
+				align-items: center;
+				display: flex;
+				justify-content: space-between;
+			}
 
-	.game.unchecked {
-		border: 1px solid #eee;
-	}
+			.setting-label {
+				font-size: 32rpx;
+				color: #333;
+			}
 
-	.game.checked {
-		border: 1px solid #05be22;
-	}
+			.cards {
+				display: flex;
 
-	.cards {
-		display: flex;
-	}
+				.game {
+					flex: 1;
+					border-radius: 10rpx;
+					padding: 12rpx 24rpx;
 
-	.game-message {
-		font-size: 28rpx;
-		color: #666;
-	}
+					.game-message {
+						font-size: 28rpx;
+						color: #666;
+					}
 
-	.game-title {
-		font-size: 32rpx;
-		color: #333;
-	}
+					.game-title {
+						font-size: 32rpx;
+						color: #333;
+					}
 
-	.setting-line {
-		flex-direction: row;
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
-	}
+				}
 
-	.setting-label {
-		font-size: 32rpx;
-		color: #333;
+				.game.unchecked {
+					border: 1px solid #eee;
+				}
+
+				.game.checked {
+					border: 1px solid #05be22;
+				}
+			}
+		}
+
+		.start-button {
+			width: 100%;
+			background-color: #05be22;
+			color: #fff;
+		}
 	}
 </style>
